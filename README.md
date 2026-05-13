@@ -17,14 +17,15 @@ A Linux monitoring script that displays basic server health information directly
 1. Clone the Repository
 2. Make the script executable in Bash: 
  ```bash
-   chmod +x server-stats.sh
+ chmod +x server-stats.sh
  ```
 3. Run the script:
 ```bash
-    ./server-stats.sh
+ ./server-stats.sh
 ```
 
 ## Sample Output
+```
 === CPU USAGE ===
   0.0 us   0.0 sy 100.0 id
 ===MEMORY USAGE===
@@ -55,6 +56,6 @@ up 5 hours, 7 minutes
 === NUMBER OF FAILED LOGIN ATTEMPTS ===
 [sudo: authenticate] Password:
 2 
-
+```
 ## Requirements
 - Linux or WSL
